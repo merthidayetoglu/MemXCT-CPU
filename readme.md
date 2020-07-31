@@ -15,7 +15,9 @@
 We provide two datasets for the SC20 Student Cluset Competition over Box.
 
 ### Datasets Option 1
+
 [Shale Dataset](https://uofi.box.com/s/atdm8zr9qljp53fbiwsrtfoqpbc1a36y)
+
 [Charcoal Dataset](https://uofi.box.com/s/atdm8zr9qljp53fbiwsrtfoqpbc1a36y)
 
 After download is complete, scp the datasets to your cluser. 
