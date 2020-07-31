@@ -1,7 +1,5 @@
 # Dataset 
-There are two ways to get the dataset. 
 
-## Option 1
 We provide converted files that are dervied from the Graph Challenge website over a Box. This can be downloaded from (Total of ~90GB): 
 [BoxFolder](https://uofi.box.com/s/gseet60dz0f939r6n69veggn80i9twwh)
 
