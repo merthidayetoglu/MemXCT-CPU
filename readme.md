@@ -33,3 +33,6 @@ bash run_ampere.sh > output.log
 Do let us know if you get any errors in output.log. Ideally it should work without any issues.
 
 # Inspect
+
+Download [Fiji](https://fiji.sc)
+
