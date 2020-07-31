@@ -1,7 +1,8 @@
-# Dataset 
+# SC20 SCC Reproducibility Challenge Datasets 
 
-We provide converted files that are dervied from the Graph Challenge website over a Box. This can be downloaded from (Total of ~90GB): 
-[BoxFolder](https://uofi.box.com/s/gseet60dz0f939r6n69veggn80i9twwh)
+We provide two datasets for the SC20 Student Cluset Competetion over Box. These can be downloaded from (Total of ~90GB): 
+#[BoxFolder](https://uofi.box.com/s/gseet60dz0f939r6n69veggn80i9twwh)
+[BoxFolder](https://uofi.box.com/s/atdm8zr9qljp53fbiwsrtfoqpbc1a36y)
 
 After download is complete, untar all the files present inside the dataset. 
 
