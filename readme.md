@@ -1,39 +1,23 @@
 # SC20 SCC Reproducibility Challenge Datasets 
 
-We provide two datasets for the SC20 Student Cluset Competetion over Box. These can be downloaded from (Total of ~90GB): 
+## Option 1
+We provide two datasets for the SC20 Student Cluset Competetion over Box. These can be downloaded from: 
 [BoxFolder](https://uofi.box.com/s/atdm8zr9qljp53fbiwsrtfoqpbc1a36y)
 
-After download is complete, untar all the files present inside the dataset. 
+After download is complete, scp the dataset to your cluser. 
 
 ## Option 2
-Automatic download and compilation (requires gzip and tar support).
-Space Required: ~200GB. Post processing ~90GB. 
-
-We assume you have set PROJREPO environment variable to the repo home. 
+Direct download from Box to your cluster. 
 
 ```
-git clone https://github.com/merthidayetoglu/SpDNN_Challenge2020.git
-cd SpDNN_Challenge2020
-export PROJREPO=$PWD
-mkdir dataset
-cd dataset
-bash $PROJREPO/utils/download.sh
+wget https://uofi.box.com/s/atdm8zr9qljp53fbiwsrtfoqpbc1a36y
 ```
 # Dependencies
 
-1. Latest version of CUDA. 
-2. g++ compiler 
-
-## Installing mpicxx compiler - Ignore if single GPU.
-```
-# For CentOS/RedHat system
-sudo dnf install mpich mpich-devel
-
-# For Ubuntu system
-sudo apt-get install -y mpich
-```
-
-`export` the installed mpich binary path and lib paths to `$PATH` and `$LD_LIBRARY_PATH` variables. 
+1. C++ Compiler
+2. CUDA Compiler
+3. MPI Compiler
+4. Makefile
 
 # Run 
 After clearing dependencies and setting PROJREPO environment variable, run the following. 
