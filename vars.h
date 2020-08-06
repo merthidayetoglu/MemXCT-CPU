@@ -7,11 +7,6 @@
 
 using namespace std;
 
-struct matrix{
-  int ind;
-  float len;
-};
-
 void findnumpix(float, float, float*, int*);
 void findpixind(float, float, float*, int*, int, int*);
 void findlength(float, float, float*, float*);

@@ -4,9 +4,9 @@ CXX = mpicxx
 CXXFLAGS = -std=c++11 -qreport -qsmp=omp -qlistfmt=html
 OPTFLAGS = -O3 -qarch=pwr9 -qtune=pwr9 -qstrict -qsimd=auto
 
-LD_FLAGS = -qsmp=omp
+LD_FLAGS = -Xcompiler -qsmp=omp
 
-TARGETS = memxct
+TARGETS = ptycho
 OBJECTS = main.o raytrace.o kernels.o
 
 # ----- Make Rules -----
@@ -16,7 +16,7 @@ all:	$(TARGETS)
 %.o: %.cpp 
 	${CXX} ${CXXFLAGS} ${OPTFLAGS} $^ -c -o $@
 
-memxct: $(OBJECTS)
+ptycho: $(OBJECTS)
 	$(CXX) -o $@ $(OBJECTS) $(LD_FLAGS)
 
 clean:
