@@ -14,14 +14,14 @@
 
 We provide the challenge datasets over Box.
 
-Test Dataset Dimensions (Theta x Rho) and Corresponding Application Memory Footprints:
+**Test Datasest** Dimensions (Theta x Rho) and Corresponding Application Memory Footprints
 
 * ADS1 (360x256): 512 MB
 * ADS2 (750x512): 3.6 GB
 * ADS3 (1500x1024): 28 GB
 * ADS3 (2400x2048): 180 GB
 
-Challenge Datasets:
+**Challenge Datasets:**
 TBA
 
 ### Datasets Option 1
