@@ -51,10 +51,10 @@ extern unsigned short *back_buffindex;
 extern float *back_buffvalue;
 
 void projection(float *mes, float *obj){
-  //MPI_Barrier(MPI_COMM_WORLD);
-  //double timef = MPI_Wtime();
+  MPI_Barrier(MPI_COMM_WORLD);
+  double timef = MPI_Wtime();
   {
-    //double time = MPI_Wtime();
+    double time = MPI_Wtime();
     int blocksize = proj_blocksize;
     int numblocks = proj_numblocks;
     int *blockdispl = proj_blockdispl;
@@ -89,17 +89,17 @@ void projection(float *mes, float *obj){
         }
       }
     }
-    //MPI_Barrier(MPI_COMM_WORLD);
-    //fktime = fktime + MPI_Wtime()-time;
+    MPI_Barrier(MPI_COMM_WORLD);
+    fktime = fktime + MPI_Wtime()-time;
   }
   {
-    //double time = MPI_Wtime();
+    double time = MPI_Wtime();
     MPI_Alltoallv(raypart,raysendcount,raysendstart,MPI_FLOAT,raybuff,rayrecvcount,rayrecvstart,MPI_FLOAT,MPI_COMM_WORLD);
     MPI_Barrier(MPI_COMM_WORLD);
-    //aftime = aftime + MPI_Wtime()-time;
+    aftime = aftime + MPI_Wtime()-time;
   }
   {
-    //double  time = MPI_Wtime();
+    double  time = MPI_Wtime();
     #pragma omp parallel for
     for(int k = 0; k < mynumray; k++){
       float reduce = 0;
@@ -107,32 +107,32 @@ void projection(float *mes, float *obj){
         reduce = reduce + raybuff[rayrayind[kk]];
       mes[k] = reduce;
     }
-    //MPI_Barrier(MPI_COMM_WORLD);
-    //frtime = frtime + MPI_Wtime()-time;
+    MPI_Barrier(MPI_COMM_WORLD);
+    frtime = frtime + MPI_Wtime()-time;
   }
-  //ftime = ftime + MPI_Wtime()-timef;
+  ftime = ftime + MPI_Wtime()-timef;
   numproj++;
 }
 
 void backprojection(float *gra, float *res){
-  //MPI_Barrier(MPI_COMM_WORLD);
-  //double timeb = MPI_Wtime();
+  MPI_Barrier(MPI_COMM_WORLD);
+  double timeb = MPI_Wtime();
   {
-    //double time = timeb;
+    double time = timeb;
     #pragma omp parallel for
     for(int k = 0; k < raynuminc; k++)
       raybuff[k] = res[rayrecvlist[k]];
-    //MPI_Barrier(MPI_COMM_WORLD);
-    //brtime = brtime + MPI_Wtime()-time;
+    MPI_Barrier(MPI_COMM_WORLD);
+    brtime = brtime + MPI_Wtime()-time;
   }
   {
-    //double time = MPI_Wtime();
+    double time = MPI_Wtime();
     MPI_Alltoallv(raybuff,rayrecvcount,rayrecvstart,MPI_FLOAT,raypart,raysendcount,raysendstart,MPI_FLOAT,MPI_COMM_WORLD);
     MPI_Barrier(MPI_COMM_WORLD);
-    //abtime = abtime + MPI_Wtime()-time;
+    abtime = abtime + MPI_Wtime()-time;
   }
   {
-    //double time = MPI_Wtime();
+    double time = MPI_Wtime();
     int blocksize = back_blocksize;
     int numblocks = back_numblocks;
     int *blockdispl = back_blockdispl;
@@ -167,9 +167,9 @@ void backprojection(float *gra, float *res){
         }
       }
     }
-    //MPI_Barrier(MPI_COMM_WORLD);
-    //bktime = bktime + MPI_Wtime()-time;
+    MPI_Barrier(MPI_COMM_WORLD);
+    bktime = bktime + MPI_Wtime()-time;
   }
-  //btime = btime + MPI_Wtime()-timeb;
+  btime = btime + MPI_Wtime()-timeb;
   numback++;
 }
