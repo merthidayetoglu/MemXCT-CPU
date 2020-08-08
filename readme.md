@@ -12,9 +12,9 @@
 
 ## Download Datasets
 
-We provide the challenge datasets over Box.
+We provide the challenge datasets over Box. Dimensions (Theta x Rho) and corresponding application memory footprints are given below.
 
-**Test Datasest** Dimensions (Theta x Rho) and Corresponding Application Memory Footprints
+**Test Datasest:**
 
 * ADS1 (360x256): 512 MB
 * ADS2 (750x512): 3.6 GB
@@ -24,15 +24,7 @@ We provide the challenge datasets over Box.
 **Challenge Datasets:**
 TBA
 
-### Datasets Option 1
-[Shale Dataset](https://uofi.box.com/s/atdm8zr9qljp53fbiwsrtfoqpbc1a36y)
-
-[Charcoal Dataset](https://uofi.box.com/s/atdm8zr9qljp53fbiwsrtfoqpbc1a36y)
-
-After download is complete, scp the datasets to your cluser. 
-
-### Datasets Option 2
-Direct download from Box to your cluster. 
+Each dataset requires a theta file and a sinogram file. Direct download from Box to your cluster. 
 
 ```
 wget https://uofi.box.com/shared/static/atdm8zr9qljp53fbiwsrtfoqpbc1a36y -O shale_data.bin
