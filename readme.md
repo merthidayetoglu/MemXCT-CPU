@@ -46,6 +46,7 @@ wget https://uofi.box.com/shared/static/ki7smuurh34cleayvwfxhjfn9mgsnega -O ADS4
 
 Edit input parameters and run the application using run.sh
 
+```
 #DOMAIN INFORMATION
 NUMTHE= Number of Theta Angles
 NUMRHO= Number of Horizontal Channels
@@ -65,6 +66,7 @@ export BACKBUFF=8
 export THEFILE=~/MemXCT_datasets/ADS3_theta.bin
 export SINFILE=~/MemXCT_datasets/ADS3_sinogram.bin
 export OUTFILE=./recon_ADS3.bin
+```
 
 ## Inspect
 
