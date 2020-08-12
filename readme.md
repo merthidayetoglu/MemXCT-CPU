@@ -10,6 +10,8 @@
 
 ### Modify Makefile
 
+There are Makefiles for ALCF Theta (Intel KNL) and OLCF Summit (IBM POWER9) systems. You should use one of them and modify according to your system.
+
 ## Download Datasets
 
 We provide the challenge datasets over Box. Dimensions (Theta x Rho) and corresponding application memory footprints are given below.
