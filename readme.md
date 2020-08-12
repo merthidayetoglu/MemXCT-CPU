@@ -46,6 +46,26 @@ wget https://uofi.box.com/shared/static/ki7smuurh34cleayvwfxhjfn9mgsnega -O ADS4
 
 Edit input parameters and run the application using run.sh
 
+#DOMAIN INFORMATION
+NUMTHE= Number of Theta Angles
+NUMRHO= Number of Horizontal Channels
+PIXSIZE= Pixel Size
+#SOLVER DATA
+NUMITER= Number of Iterations
+#TILE SIZE (MUST BE POWER OF TWO)
+export SPATSIZE=128
+export SPECSIZE=128
+#BLOCK SIZE
+export PROJBLOCK=128
+export BACKBLOCK=128
+#BUFFER SIZE
+export PROJBUFF=8
+export BACKBUFF=8
+#I/O FILES
+export THEFILE=~/MemXCT_datasets/ADS3_theta.bin
+export SINFILE=~/MemXCT_datasets/ADS3_sinogram.bin
+export OUTFILE=./recon_ADS3.bin
+
 ## Inspect
 
 Download [Fiji](https://fiji.sc)
