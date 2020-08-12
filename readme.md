@@ -48,7 +48,7 @@ Edit input parameters and run the application using run.sh
 
 ```
 #DOMAIN INFORMATION
-__NUMTHE=__ Number of Theta Angles
+**NUMTHE=** Number of Theta Angles
 NUMRHO= Number of Horizontal Channels
 PIXSIZE= Pixel Size
 #SOLVER DATA
