@@ -48,24 +48,24 @@ Edit input parameters and run the application using run.sh
 
 ```
 #DOMAIN INFORMATION
-**NUMTHE=** Number of Theta Angles
-NUMRHO= Number of Horizontal Channels
-PIXSIZE= Pixel Size
+export NUMTHE= Number of Rotations (according to the input dataset)
+export NUMRHO= Number of Channels (according to the input dataset)
+export PIXSIZE= Pixel Size (should be 1)
 #SOLVER DATA
-NUMITER= Number of Iterations
+export NUMITER= Number of Iterations (should be 24)
 #TILE SIZE (MUST BE POWER OF TWO)
-export SPATSIZE=128
-export SPECSIZE=128
+export SPATSIZE= Spatial Tile Size (tuning parameter, must be a power of two)
+export SPECSIZE= Spectral Tile Size (tuning parameter, must be a power of two)
 #BLOCK SIZE
-export PROJBLOCK=128
-export BACKBLOCK=128
+export PROJBLOCK= Projection Block Size (tuning parameter)
+export BACKBLOCK= Backprojection Block Size (tuning parameter)
 #BUFFER SIZE
-export PROJBUFF=8
-export BACKBUFF=8
+export PROJBUFF= Projection Buffer Size (tuning parameter)
+export BACKBUFF= Backprojection Buffer Size (tuning parameter)
 #I/O FILES
-export THEFILE=~/MemXCT_datasets/ADS3_theta.bin
-export SINFILE=~/MemXCT_datasets/ADS3_sinogram.bin
-export OUTFILE=./recon_ADS3.bin
+export THEFILE= input theta file
+export SINFILE= input sinogram file
+export OUTFILE= output image file
 ```
 
 ## Inspect
