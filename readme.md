@@ -9,7 +9,7 @@
 
 ### Modify Makefile
 
-There are Makefiles for ALCF Theta (Intel KNL) and OLCF Summit (IBM POWER9) systems. You should use one of them and modify according to your system.
+There are Makefiles for ALCF Theta (Intel KNL) and OLCF Summit (IBM POWER9) systems. You should use one of them to modify according to your system.
 
 ## Download Datasets
 
