@@ -5,8 +5,7 @@
 ### Make Sure Dependencies are Installed
 
 1. C++ Compiler
-2. CUDA Compiler
-3. MPI Compiler
+2. MPI Compiler
 
 ### Modify Makefile
 
