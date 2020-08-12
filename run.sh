@@ -27,8 +27,12 @@ export BACKBLOCK=128
 export PROJBUFF=8
 export BACKBUFF=8
 #I/O FILES
-export THEFILE=/gpfs/alpine/scratch/merth/csc362/MemXCT_datasets/ADS3_theta.bin
-export SINFILE=/gpfs/alpine/scratch/merth/csc362/MemXCT_datasets/ADS3_sinogram.bin
-export OUTFILE=/gpfs/alpine/scratch/merth/csc362/recon_ADS3.bin
+export THEFILE=~/MemXCT_datasets/ADS3_theta.bin
+export SINFILE=~/MemXCT_datasets/ADS3_sinogram.bin
+export OUTFILE=./recon_ADS3.bin
 
-jsrun -n1 -a6 -g1 -c42 -EOMP_NUM_THREADS=7 -r1 -bpacked:7 js_task_info ./memxct
+#jsrun -n1 -a6 -g1 -c42 -EOMP_NUM_THREADS=7 -r1 -bpacked:7 js_task_info ./memxct
+
+export OMP_NUM_THREADS=1
+
+mpirun -np 16 ./memxct

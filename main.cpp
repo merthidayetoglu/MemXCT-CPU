@@ -129,14 +129,14 @@ int main(int argc, char** argv){
   //chartemp = getenv("NUMY");
   numy = numx;//atoi(chartemp);
 
-  chartemp = getenv("XSTART");
-  float xstart = atof(chartemp);
+  //chartemp = getenv("XSTART");
+  float xstart = numrho/2.0;//atof(chartemp);
   //chartemp = getenv("YSTART");
   float ystart = xstart;//atof(chartemp);
   chartemp = getenv("PIXSIZE");
   pixsize = atof(chartemp);
-  chartemp = getenv("RHOSTART");
-  rhostart = atof(chartemp);
+  //chartemp = getenv("RHOSTART");
+  rhostart = xstart; //atof(chartemp);
   //chartemp = getenv("RAYLENGTH");
   raylength = 2*numx;//atof(chartemp);
 
