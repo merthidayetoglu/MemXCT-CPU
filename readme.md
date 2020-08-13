@@ -9,7 +9,7 @@
 
 ### Modify Makefile
 
-There are Makefiles for ALCF Theta (Intel KNL) and OLCF Summit (IBM POWER9) systems. You should use one of them to modify according to your system.
+There are Makefiles for ALCF Theta (Intel KNL) and OLCF Summit (IBM POWER9) systems. You should use one of these to modify according to your system.
 
 ## Download Datasets
 
@@ -63,9 +63,9 @@ export BACKBLOCK= Backprojection Block Size (tuning parameter)
 export PROJBUFF= Projection Buffer Size (tuning parameter)
 export BACKBUFF= Backprojection Buffer Size (tuning parameter)
 #I/O FILES
-export THEFILE= input theta file
-export SINFILE= input sinogram file
-export OUTFILE= output image file
+export THEFILE= input theta file path
+export SINFILE= input sinogram file path
+export OUTFILE= output image file path
 ```
 
 You should see residual error drops in each iteration.
