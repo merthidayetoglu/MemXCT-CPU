@@ -68,7 +68,7 @@ export SINFILE= input sinogram file
 export OUTFILE= output image file
 ```
 
-## Inspect
+## Verify
 
-Download [Fiji](https://fiji.sc) open source, lightwait, standalone scientific visualization tool. Import raw image file and inspect the image.
+Download [Fiji](https://fiji.sc) open source, lightwait, standalone scientific visualization tool. Import raw image file and inspect the image to verify the code.
 
