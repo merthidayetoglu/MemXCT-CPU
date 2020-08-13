@@ -25,7 +25,7 @@ We provide the challenge datasets over Box. Dimensions (Theta x Rho) and corresp
 **Challenge Datasets:**
 TBA
 
-Each dataset requires a theta file and a sinogram file. Direct download from Box to your cluster.
+Each dataset requires a theta file and a sinogram file. Use the code below to directly download datasets to your cluster.
 
 ```
 wget https://uofi.box.com/shared/static/ql76fxfrnec1jdl8dc4f2g4ihwekn9oj -O ADS1_theta.bin
