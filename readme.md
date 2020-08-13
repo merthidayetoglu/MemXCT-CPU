@@ -72,5 +72,5 @@ You should see residual error drops in each iteration.
 
 ## Verify
 
-Download [Fiji](https://fiji.sc) open source, lightwait, standalone scientific visualization tool. Import raw image file and inspect the image to verify the code.
+Download [Fiji](https://fiji.sc) open source, lightweight, standalone scientific visualization tool. Import the raw image file and inspect the image to verify the code.
 
