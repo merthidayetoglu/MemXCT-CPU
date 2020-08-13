@@ -70,5 +70,5 @@ export OUTFILE= output image file
 
 ## Inspect
 
-Download [Fiji](https://fiji.sc)
+Download [Fiji](https://fiji.sc) open source, lightwait, standalone scientific visualization tool. Import raw image file and inspect the image.
 
