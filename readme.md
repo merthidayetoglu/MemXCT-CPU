@@ -2,12 +2,12 @@
 
 ## Compile
 
-### Make Sure Dependencies are Installed
+**Make Sure Dependencies are Installed**
 
 1. C++ Compiler
 2. MPI Compiler
 
-### Modify Makefile
+**Modify Makefile**
 
 There are Makefiles for ALCF Theta (Intel KNL) and OLCF Summit (IBM POWER9) systems. You should use one of these to modify according to your system.
 
