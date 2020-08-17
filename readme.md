@@ -76,4 +76,4 @@ Download [Fiji](https://fiji.sc) open source, lightweight, standalone scientific
 
 You should see artificial images as the following:
 
-![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)(https://octodex.github.com/images/yaktocat.png)
+![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png =100x20)
