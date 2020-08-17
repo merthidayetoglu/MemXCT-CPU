@@ -27,7 +27,7 @@ TBA
 
 Each dataset requires a theta file and a sinogram file. Use the code below to directly download datasets to your cluster.
 
-```
+```bash
 wget https://uofi.box.com/shared/static/ql76fxfrnec1jdl8dc4f2g4ihwekn9oj -O ADS1_theta.bin
 wget https://uofi.box.com/shared/static/zmt3vq5k0jaqgcay4a7yscv2a0viyxlc -O ADS1_sinogram.bin
 
