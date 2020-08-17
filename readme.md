@@ -73,7 +73,3 @@ You should see residual error drops in each iteration.
 ## Verify
 
 Download [Fiji](https://fiji.sc) open source, lightweight, standalone scientific visualization tool. Import the raw image file and inspect the image to verify the code.
-
-You should see artificial images as the following:
-
-![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png =100x20)
