@@ -46,7 +46,7 @@ wget https://uofi.box.com/shared/static/ki7smuurh34cleayvwfxhjfn9mgsnega -O ADS4
 
 Edit input parameters and run the application using run.sh
 
-```
+```bash
 #DOMAIN INFORMATION
 export NUMTHE= Number of Rotations (according to the input dataset)
 export NUMRHO= Number of Channels (according to the input dataset)
