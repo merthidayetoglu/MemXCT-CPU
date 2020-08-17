@@ -130,7 +130,7 @@ int main(int argc, char** argv){
   numy = numx;//atoi(chartemp);
 
   //chartemp = getenv("XSTART");
-  float xstart = numrho/2.0;//atof(chartemp);
+  float xstart = -numrho/2.0;//atof(chartemp);
   //chartemp = getenv("YSTART");
   float ystart = xstart;//atof(chartemp);
   chartemp = getenv("PIXSIZE");
