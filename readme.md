@@ -2,14 +2,14 @@
 
 ## Compile
 
-### Make Sure Dependencies are Installed
+**Make Sure Dependencies are Installed**
 
 1. C++ Compiler
 2. MPI Compiler
 
-### Modify Makefile
+**Modify Makefile**
 
-There are Makefiles for ALCF Theta (Intel KNL) and OLCF Summit (IBM POWER9) systems. You should use one of them to modify according to your system.
+There are Makefiles for ALCF Theta (Intel KNL) and OLCF Summit (IBM POWER9) systems. You should use one of these to modify according to your system.
 
 ## Download Datasets
 
@@ -25,7 +25,7 @@ We provide the challenge datasets over Box. Dimensions (Theta x Rho) and corresp
 **Challenge Datasets:**
 TBA
 
-Each dataset requires a theta file and a sinogram file. Direct download from Box to your cluster. 
+Each dataset requires a theta file and a sinogram file. Use the code below to directly download datasets to your cluster.
 
 ```
 wget https://uofi.box.com/shared/static/ql76fxfrnec1jdl8dc4f2g4ihwekn9oj -O ADS1_theta.bin
@@ -39,8 +39,8 @@ wget https://uofi.box.com/shared/static/icxtknbrndv8i2d83mc87ppjxepty8jz -O ADS3
 
 wget https://uofi.box.com/shared/static/tbjk9dksog7qqick66nbcnq4ngais1yd -O ADS4_theta.bin
 wget https://uofi.box.com/shared/static/ki7smuurh34cleayvwfxhjfn9mgsnega -O ADS4_sinogram.bin
-
 ```
+
 
 ## Run 
 
@@ -48,27 +48,29 @@ Edit input parameters and run the application using run.sh
 
 ```
 #DOMAIN INFORMATION
-NUMTHE= Number of Theta Angles
-NUMRHO= Number of Horizontal Channels
-PIXSIZE= Pixel Size
+export NUMTHE= Number of Rotations (according to the input dataset)
+export NUMRHO= Number of Channels (according to the input dataset)
+export PIXSIZE= Pixel Size (should be 1)
 #SOLVER DATA
-NUMITER= Number of Iterations
+export NUMITER= Number of Iterations (should be 24)
 #TILE SIZE (MUST BE POWER OF TWO)
-export SPATSIZE=128
-export SPECSIZE=128
+export SPATSIZE= Spatial Tile Size (tuning parameter, must be a power of two)
+export SPECSIZE= Spectral Tile Size (tuning parameter, must be a power of two)
 #BLOCK SIZE
-export PROJBLOCK=128
-export BACKBLOCK=128
+export PROJBLOCK= Projection Block Size (tuning parameter)
+export BACKBLOCK= Backprojection Block Size (tuning parameter)
 #BUFFER SIZE
-export PROJBUFF=8
-export BACKBUFF=8
+export PROJBUFF= Projection Buffer Size (tuning parameter)
+export BACKBUFF= Backprojection Buffer Size (tuning parameter)
 #I/O FILES
-export THEFILE=~/MemXCT_datasets/ADS3_theta.bin
-export SINFILE=~/MemXCT_datasets/ADS3_sinogram.bin
-export OUTFILE=./recon_ADS3.bin
+export THEFILE= input theta file path
+export SINFILE= input sinogram file path
+export OUTFILE= output image file path
 ```
 
-## Inspect
+You should see residual error drops in each iteration.
 
-Download [Fiji](https://fiji.sc)
+## Verify
+
+Download [Fiji](https://fiji.sc) open source, lightweight, standalone scientific visualization tool. Import the raw image file and inspect the image to verify the code.
 
