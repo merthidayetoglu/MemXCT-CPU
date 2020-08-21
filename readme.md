@@ -1,5 +1,7 @@
 # SC20 SCC Reproducibility Challenge Instructions
 
+## All work based off of this [SC19 paper](http://impact.crhc.illinois.edu/Shared/Papers/MemXCT_SC19.pdf)
+
 ## Compile
 
 **Make Sure Dependencies are Installed**
