@@ -77,5 +77,16 @@ You should see residual error drops in each iteration.
 Download [Fiji](https://fiji.sc) open source, lightweight, standalone scientific visualization tool. Import the raw image file and inspect the image to verify the code. If you did it correctly you will see these images that correspond to the input datasets.
 
 ADS1
-![ADS1](/recon_ADS1.png)
+![recon_ADS1](https://user-images.githubusercontent.com/1329268/90914890-40d40580-e3a4-11ea-8fc8-8c866a66d414.png)
+
+ADS2
+![recon_ADS2](https://user-images.githubusercontent.com/1329268/90914889-40d40580-e3a4-11ea-957b-90c5c84ce6a7.png)
+
+ADS3
+![recon_ADS3](https://user-images.githubusercontent.com/1329268/90914888-40d40580-e3a4-11ea-8a8c-6a40348c7ba8.png)
+
+ADS4
+![recon_ADS4](https://user-images.githubusercontent.com/1329268/90914882-3dd91500-e3a4-11ea-9766-ccbe9870c7e2.png)
+
+
 
