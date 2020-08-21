@@ -76,5 +76,6 @@ You should see residual error drops in each iteration.
 
 Download [Fiji](https://fiji.sc) open source, lightweight, standalone scientific visualization tool. Import the raw image file and inspect the image to verify the code. If you did it correctly you will see these images that correspond to the input datasets.
 
-![ADS1](recon_ADS1.png)
+ADS1
+![ADS1](https://raw.githubusercontent.com/merthidayetoglu/MemXCT-CPU/master/recon_ADS1.png)
 
