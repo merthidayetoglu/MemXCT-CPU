@@ -6,7 +6,7 @@ OPTFLAGS = -O3 -qarch=pwr9 -qtune=pwr9 -qstrict -qsimd=auto
 
 LD_FLAGS = -Xcompiler -qsmp=omp
 
-TARGETS = ptycho
+TARGETS = memxct
 OBJECTS = main.o raytrace.o kernels.o
 
 # ----- Make Rules -----
@@ -16,7 +16,7 @@ all:	$(TARGETS)
 %.o: %.cpp 
 	${CXX} ${CXXFLAGS} ${OPTFLAGS} $^ -c -o $@
 
-ptycho: $(OBJECTS)
+memxct: $(OBJECTS)
 	$(CXX) -o $@ $(OBJECTS) $(LD_FLAGS)
 
 clean:

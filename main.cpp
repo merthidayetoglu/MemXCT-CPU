@@ -319,9 +319,11 @@ int main(int argc, char** argv){
   int *pixstart = new int[numproc];
   int *raystart = new int[numproc];
   int myspattile = numspattile/numproc;
-  if(myid<(((float)numspattile)/numproc-myspattile)*numproc)myspattile++;
+  if(myid < numspattile-myspattile*numproc)
+    myspattile++;
   int myspectile = numspectile/numproc;
-  if(myid<(((float)numspectile)/numproc-myspectile)*numproc)myspectile++;
+  if(myid < numspectile-myspectile*numproc)
+    myspectile++;
   MPI_Allgather(&myspattile,1,MPI_INTEGER,numspats,1,MPI_INTEGER,MPI_COMM_WORLD);
   MPI_Allgather(&myspectile,1,MPI_INTEGER,numspecs,1,MPI_INTEGER,MPI_COMM_WORLD);
   spatstart[0] = 0;
@@ -1030,8 +1032,8 @@ int main(int argc, char** argv){
     if(pixcoor[n].real() > xstart/2 && pixcoor[n].real() < 0 )
       if(pixcoor[n].imag() > ystart/2 && pixcoor[n].imag() < 0)
         obj[n] = 1;//(rand()%100)/100.0;
-    if(pixcoor[n].real() < -xstart/2 && pixcoor[n].real() > 0)
-      if(pixcoor[n].imag() < -ystart/2 && pixcoor[n].imag() > 0)
+    if(pixcoor[n].real() < -xstart/16 && pixcoor[n].real() > 0)
+      if(pixcoor[n].imag() < -ystart/16 && pixcoor[n].imag() > 0)
         obj[n] = 1;
   }
   //SIMULATION
@@ -1057,11 +1059,16 @@ int main(int argc, char** argv){
     mesall[rayglobalind[k]] = mes[k];
   MPI_Allreduce(MPI_IN_PLACE,mesall,numray,MPI_FLOAT,MPI_SUM,MPI_COMM_WORLD);
   if(myid==0){
-    FILE *mesf = fopen("ADS3_sinogram.bin","wb");
+    FILE *mesf = fopen("/gpfs/alpine/scratch/merth/csc362/test_sinogram.bin","wb");
     fwrite(mesall,sizeof(float),numthe*numrho,mesf);
     fclose(mesf);
   }
   delete[] mesall;*/
+    /*char inputfile[1000];
+    sprintf(inputfile,"/gpfs/alpine/scratch/merth/csc362/test_sinogram_%d.bin",myid);
+    FILE *mesf = fopen(inputfile,"wb");
+    fwrite(mesall,sizeof(float),numthe*numrho,mesf);
+    fclose(mesf);*/
   delete[] rayglobalind;
   delete[] raymesind;
   if(myid==0)printf("GRADIENT-DESCENT OPTIMIZATION\n");
