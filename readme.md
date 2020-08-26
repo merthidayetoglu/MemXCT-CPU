@@ -78,8 +78,8 @@ Download [Fiji](https://fiji.sc) open source, lightweight, standalone scientific
 
 <table>
   <tr>
-    <th>ADS3 Sinogram (Input)</th>
-    <th>ADS3 Tomogram (Output)</th>
+    <th>ADS3 (1500x1024) Sinogram (Input)</th>
+    <th>ADS3 (1024x1024) Tomogram (Output)</th>
   </tr>
   <tr valign="top">
     <td><img src="https://user-images.githubusercontent.com/15988772/91255215-e59a6e00-e729-11ea-9483-50d80b489984.png" alt="ADS3 Sinogram" width="256" title="ADS3 Sinogram (Input)"></td>
