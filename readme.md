@@ -56,8 +56,8 @@ export PIXSIZE= Pixel Size (should be 1)
 #SOLVER DATA
 export NUMITER= Number of Iterations (should be 24)
 #TILE SIZE (MUST BE POWER OF TWO)
-export SPATSIZE= Spatial Tile Size (tuning parameter, must be a power of two)
-export SPECSIZE= Spectral Tile Size (tuning parameter, must be a power of two)
+export SPATSIZE= Spatial Tile Size (tuning parameter)
+export SPECSIZE= Spectral Tile Size (tuning parameter)
 #BLOCK SIZE
 export PROJBLOCK= Projection Block Size (tuning parameter)
 export BACKBLOCK= Backprojection Block Size (tuning parameter)
