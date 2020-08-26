@@ -76,6 +76,17 @@ You should see residual error drops in each iteration.
 
 Download [Fiji](https://fiji.sc) open source, lightweight, standalone scientific visualization tool. Import the raw image file and inspect the image to verify the code. As an example, sinogram (input) and tomogram (output) data should look as below.
 
+<table>
+  <tr>
+    <th>Month</th>
+    <th>Savings</th>
+  </tr>
+  <tr>
+    <td>January</td>
+    <td>$100</td>
+  </tr>
+</table>
+
 <p float="left">
     <img src="https://user-images.githubusercontent.com/15988772/91255215-e59a6e00-e729-11ea-9483-50d80b489984.png" alt="ADS3 Sinogram" width="256" title="ADS3 Sinogram (Input)" />
     ADS3 Tomogram (Output)
