@@ -69,7 +69,7 @@ export THEFILE= input theta file path
 export SINFILE= input sinogram file path
 export OUTFILE= output image file path
 
-#RUN SCRIPT COMES HERE
+#RUN COMMAND COMES HERE
 ```
 
 You should see residual error drops in each iteration.
