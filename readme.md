@@ -46,7 +46,7 @@ wget https://uofi.box.com/shared/static/ki7smuurh34cleayvwfxhjfn9mgsnega -O ADS4
 
 ## Run 
 
-Edit input parameters and run the application using run.sh
+Edit input parameters and run the application using run script. Update one of the run scripts for your system.
 
 ```bash
 #DOMAIN INFORMATION
