@@ -1,0 +1,3 @@
+#!/bin/bash
+
+idev -p nvdimm -N 1 -m 30

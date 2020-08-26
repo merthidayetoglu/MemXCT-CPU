@@ -1057,7 +1057,7 @@ int main(int argc, char** argv){
     mesall[rayglobalind[k]] = mes[k];
   MPI_Allreduce(MPI_IN_PLACE,mesall,numray,MPI_FLOAT,MPI_SUM,MPI_COMM_WORLD);
   if(myid==0){
-    FILE *mesf = fopen("/gpfs/alpine/scratch/merth/csc362/MemXCT_datasets/ADS4_sinogram.bin","wb");
+    FILE *mesf = fopen("ADS3_sinogram.bin","wb");
     fwrite(mesall,sizeof(float),numthe*numrho,mesf);
     fclose(mesf);
   }
