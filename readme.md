@@ -68,6 +68,8 @@ export BACKBUFF= Backprojection Buffer Size (tuning parameter)
 export THEFILE= input theta file path
 export SINFILE= input sinogram file path
 export OUTFILE= output image file path
+
+#RUN SCRIPT COMES HERE
 ```
 
 You should see residual error drops in each iteration.
