@@ -1,0 +1,3 @@
+#qsub -A FFTBench --queue debug-cache-quad -n 8 -t 60 -I
+
+qsub -A TomoDev --attrs mcdram=cache:numa=quad -n 4096 -t 120 --mode script run_4096_nobarrier.sh
