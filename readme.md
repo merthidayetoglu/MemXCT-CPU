@@ -79,6 +79,6 @@ Download [Fiji](https://fiji.sc) open source, lightweight, standalone scientific
 
 ADS3
 
-![ADS3_singoram](https://user-images.githubusercontent.com/15988772/91255215-e59a6e00-e729-11ea-9483-50d80b489984.png)
+![ADS3_singoram](https://user-images.githubusercontent.com/15988772/91255215-e59a6e00-e729-11ea-9483-50d80b489984.png | width=100)
 
 ![ADS3_tomogram](https://user-images.githubusercontent.com/15988772/91255231-ee8b3f80-e729-11ea-8f99-0668a58a3737.png)
