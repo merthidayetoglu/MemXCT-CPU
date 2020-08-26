@@ -79,7 +79,7 @@ Download [Fiji](https://fiji.sc) open source, lightweight, standalone scientific
 <table>
   <tr>
     <th>Month</th>
-    <th>Savings</th>
+    <th><img src="https://user-images.githubusercontent.com/15988772/91255215-e59a6e00-e729-11ea-9483-50d80b489984.png" alt="ADS3 Sinogram" width="256" title="ADS3 Sinogram (Input)" /></th>
   </tr>
   <tr>
     <td>January</td>
@@ -88,7 +88,7 @@ Download [Fiji](https://fiji.sc) open source, lightweight, standalone scientific
 </table>
 
 <p float="left">
-    <img src="https://user-images.githubusercontent.com/15988772/91255215-e59a6e00-e729-11ea-9483-50d80b489984.png" alt="ADS3 Sinogram" width="256" title="ADS3 Sinogram (Input)" />
+    
     ADS3 Tomogram (Output)
     <img src="https://user-images.githubusercontent.com/15988772/91255231-ee8b3f80-e729-11ea-8f99-0668a58a3737.png" alt="ADS3 Tomogram" width="256" />
 </p>
