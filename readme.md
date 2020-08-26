@@ -85,11 +85,7 @@ ADS3 Tomogram (Output)
 
 <img src="https://user-images.githubusercontent.com/15988772/91255231-ee8b3f80-e729-11ea-8f99-0668a58a3737.png" width="256">
 
-<div class="row">
-  <div class="column">
-    <img src="https://user-images.githubusercontent.com/15988772/91255215-e59a6e00-e729-11ea-9483-50d80b489984.png" alt="ADS3 Sinogram" width="256">
-  </div>
-  <div class="column">
-    <img src="https://user-images.githubusercontent.com/15988772/91255231-ee8b3f80-e729-11ea-8f99-0668a58a3737.png" alt="ADS3 Tomogram" width="256">
-  </div>
-</div>
+<p float="left">
+    <img src="https://user-images.githubusercontent.com/15988772/91255215-e59a6e00-e729-11ea-9483-50d80b489984.png" alt="ADS3 Sinogram" width="256" />
+    <img src="https://user-images.githubusercontent.com/15988772/91255231-ee8b3f80-e729-11ea-8f99-0668a58a3737.png" alt="ADS3 Tomogram" width="256" />
+</p>
