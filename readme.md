@@ -74,7 +74,7 @@ You should see residual error drops in each iteration.
 
 ## Verify
 
-Download [Fiji](https://fiji.sc) open source, lightweight, standalone scientific visualization tool. Import the raw image file and inspect the image to verify the code. As an example, sinogram (input) and tomogram (output) data should look as below.
+Download [Fiji](https://fiji.sc) open source, lightweight, standalone scientific visualization tool. Import the raw image file and inspect the image to verify the code. Sinogram (input) and tomogram (output) test data should look as below.
 
 <table>
   <tr>
