@@ -11,7 +11,7 @@
 
 **Modify Makefile**
 
-There are Makefiles for ALCF Theta (Intel Knights Landing) and OLCF Summit (IBM POWER9) and TACC Frontera (Intel Cascade Lake) systems. You should use one of these to modify according to your system.
+There are Makefiles for ALCF Theta (Intel KNL) and OLCF Summit (IBM POWER9) and TACC Frontera (Intel Cascade Lake) systems. You should use one of these to modify according to your system.
 
 ## Download Datasets
 
