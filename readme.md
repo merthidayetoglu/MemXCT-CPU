@@ -56,8 +56,8 @@ export PIXSIZE= Pixel Size (should be 1)
 #SOLVER DATA
 export NUMITER= Number of Iterations (should be 24)
 #TILE SIZE (MUST BE POWER OF TWO)
-export SPATSIZE= Spatial Tile Size (tuning parameter, must be a power of two)
-export SPECSIZE= Spectral Tile Size (tuning parameter, must be a power of two)
+export SPATSIZE= Spatial Tile Size (tuning parameter)
+export SPECSIZE= Spectral Tile Size (tuning parameter)
 #BLOCK SIZE
 export PROJBLOCK= Projection Block Size (tuning parameter)
 export BACKBLOCK= Backprojection Block Size (tuning parameter)
@@ -74,23 +74,48 @@ You should see residual error drops in each iteration.
 
 ## Verify
 
-Download [Fiji](https://fiji.sc) open source, lightweight, standalone scientific visualization tool. Import the raw image file and inspect the image to verify the code. If you did it correctly you will see these images that correspond to the input datasets.
+Download [Fiji](https://fiji.sc) open source, lightweight, standalone scientific visualization tool. Import the raw image file and inspect the image to verify the code. Sinogram (input) and tomogram (output) test data should look as below.
 
-ADS1
+<table>
+  <tr>
+    <th>ADS1 Sinogram (360x256)</th>
+    <th>ADS1 Tomogram (256x256)</th>
+  </tr>
+  <tr valign="top">
+    <td style="text-align:center"><img src="https://user-images.githubusercontent.com/15988772/91256768-d3223380-e72d-11ea-8da7-09698a67db58.png" width="256" title="ADS1 Sinogram"></td>
+    <td style="text-align:center"><img src="https://user-images.githubusercontent.com/15988772/91256777-d9181480-e72d-11ea-81b3-ccff86d68f7b.png" width="256" title="ADS1 Tomogram" ></td>
+  </tr>
+</table>
 
-![recon_ADS1](https://user-images.githubusercontent.com/1329268/90914890-40d40580-e3a4-11ea-8fc8-8c866a66d414.png)
+<table>
+  <tr>
+    <th>ADS2 Sinogram (750x512)</th>
+    <th>ADS2 Tomogram (512x512)</th>
+  </tr>
+  <tr valign="top">
+    <td style="text-align:center"><img src="https://user-images.githubusercontent.com/15988772/91256781-dcab9b80-e72d-11ea-8bc2-928d16174599.png" width="256" title="ADS2 Sinogram"></td>
+    <td style="text-align:center"><img src="https://user-images.githubusercontent.com/15988772/91256787-e03f2280-e72d-11ea-9e41-28dd6691cf89.png" width="256" title="ADS2 Tomogram" ></td>
+  </tr>
+</table>
 
-ADS2
+<table>
+  <tr>
+    <th>ADS3 Sinogram (1500x1024)</th>
+    <th>ADS3 Tomogram (1024x1024)</th>
+  </tr>
+  <tr valign="top">
+    <td style="text-align:center"><img src="https://user-images.githubusercontent.com/15988772/91256794-e59c6d00-e72d-11ea-975d-b75081267280.png" width="256" title="ADS3 Sinogram"></td>
+    <td style="text-align:center"><img src="https://user-images.githubusercontent.com/15988772/91256809-eb924e00-e72d-11ea-9c5a-a6048c3d85b9.png" width="256" title="ADS3 Tomogram" ></td>
+  </tr>
+</table>
 
-![recon_ADS2](https://user-images.githubusercontent.com/1329268/90914889-40d40580-e3a4-11ea-957b-90c5c84ce6a7.png)
-
-ADS3
-
-![recon_ADS3](https://user-images.githubusercontent.com/1329268/90914888-40d40580-e3a4-11ea-8a8c-6a40348c7ba8.png)
-
-ADS4
-
-![recon_ADS4](https://user-images.githubusercontent.com/1329268/90914882-3dd91500-e3a4-11ea-9766-ccbe9870c7e2.png)
-
-
-
+<table>
+  <tr>
+    <th>ADS4 Sinogram (2400x2048)</th>
+    <th>ADS4 Tomogram (2048x2048)</th>
+  </tr>
+  <tr valign="top">
+    <td style="text-align:center"><img src="https://user-images.githubusercontent.com/15988772/91256820-ee8d3e80-e72d-11ea-9732-64888f021d3e.png" width="256" title="ADS4 Sinogram"></td>
+    <td style="text-align:center"><img src="https://user-images.githubusercontent.com/15988772/91256824-f2b95c00-e72d-11ea-9b78-79dc46feacdb.png" width="256" title="ADS4 Tomogram" ></td>
+  </tr>
+</table>
