@@ -74,10 +74,10 @@ You should see residual error drops in each iteration.
 
 ## Verify
 
-Download [Fiji](https://fiji.sc) open source, lightweight, standalone scientific visualization tool. Import the raw image file and inspect the image to verify the code. As an example, sinogram and tomogram (output) data should look as below.
+Download [Fiji](https://fiji.sc) open source, lightweight, standalone scientific visualization tool. Import the raw image file and inspect the image to verify the code. As an example, sinogram (input) and tomogram (output) data should look as below.
 
 
 ADS3
 
-![recon_ADS3](https://user-images.githubusercontent.com/1329268/90914888-40d40580-e3a4-11ea-8a8c-6a40348c7ba8.png)
+![ADS3_singoram](https://user-images.githubusercontent.com/15988772/91255231-ee8b3f80-e729-11ea-8f99-0668a58a3737.png)
 
