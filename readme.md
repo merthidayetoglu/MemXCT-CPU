@@ -108,3 +108,14 @@ Download [Fiji](https://fiji.sc) open source, lightweight, standalone scientific
     <td style="text-align:center"><img src="https://user-images.githubusercontent.com/15988772/91256809-eb924e00-e72d-11ea-9c5a-a6048c3d85b9.png" width="256" title="ADS3 Tomogram" ></td>
   </tr>
 </table>
+
+<table>
+  <tr>
+    <th>ADS4 Sinogram (2400x2048)</th>
+    <th>ADS4 Tomogram (2048x2048)</th>
+  </tr>
+  <tr valign="top">
+    <td style="text-align:center"><img src="https://user-images.githubusercontent.com/15988772/91256820-ee8d3e80-e72d-11ea-9732-64888f021d3e.png" width="256" title="ADS4 Sinogram"></td>
+    <td style="text-align:center"><img src="https://user-images.githubusercontent.com/15988772/91256824-f2b95c00-e72d-11ea-9b78-79dc46feacdb.png" width="256" title="ADS4 Tomogram" ></td>
+  </tr>
+</table>
