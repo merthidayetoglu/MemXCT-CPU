@@ -82,8 +82,8 @@ Download [Fiji](https://fiji.sc) open source, lightweight, standalone scientific
     <th>ADS1 Tomogram (256x256)</th>
   </tr>
   <tr valign="top">
-    <td style="text-align:center"><img src="https://user-images.githubusercontent.com/15988772/91256768-d3223380-e72d-11ea-8da7-09698a67db58.png" width="256" title="ADS1 Sinogram"></td>
-    <td style="text-align:center"><img src="https://user-images.githubusercontent.com/15988772/91256777-d9181480-e72d-11ea-81b3-ccff86d68f7b.png" width="256" title="ADS1 Tomogram" ></td>
+    <td style="text-align:center"><img src="https://user-images.githubusercontent.com/15988772/91278602-0e326000-e74a-11ea-8d64-37dd8ce307e3.png" width="256" title="ADS1 Sinogram"></td>
+    <td style="text-align:center"><img src="https://user-images.githubusercontent.com/15988772/91278668-22765d00-e74a-11ea-8e41-867c3ee286d6.png" width="256" title="ADS1 Tomogram" ></td>
   </tr>
 </table>
 
@@ -93,8 +93,8 @@ Download [Fiji](https://fiji.sc) open source, lightweight, standalone scientific
     <th>ADS2 Tomogram (512x512)</th>
   </tr>
   <tr valign="top">
-    <td style="text-align:center"><img src="https://user-images.githubusercontent.com/15988772/91256781-dcab9b80-e72d-11ea-8bc2-928d16174599.png" width="256" title="ADS2 Sinogram"></td>
-    <td style="text-align:center"><img src="https://user-images.githubusercontent.com/15988772/91256787-e03f2280-e72d-11ea-9e41-28dd6691cf89.png" width="256" title="ADS2 Tomogram" ></td>
+    <td style="text-align:center"><img src="https://user-images.githubusercontent.com/15988772/91278678-2609e400-e74a-11ea-8fd0-e789b2427c44.png" width="256" title="ADS2 Sinogram"></td>
+    <td style="text-align:center"><img src="https://user-images.githubusercontent.com/15988772/91278685-286c3e00-e74a-11ea-9238-9ffb6c12699e.png" width="256" title="ADS2 Tomogram" ></td>
   </tr>
 </table>
 
@@ -104,8 +104,8 @@ Download [Fiji](https://fiji.sc) open source, lightweight, standalone scientific
     <th>ADS3 Tomogram (1024x1024)</th>
   </tr>
   <tr valign="top">
-    <td style="text-align:center"><img src="https://user-images.githubusercontent.com/15988772/91256794-e59c6d00-e72d-11ea-975d-b75081267280.png" width="256" title="ADS3 Sinogram"></td>
-    <td style="text-align:center"><img src="https://user-images.githubusercontent.com/15988772/91256809-eb924e00-e72d-11ea-9c5a-a6048c3d85b9.png" width="256" title="ADS3 Tomogram" ></td>
+    <td style="text-align:center"><img src="https://user-images.githubusercontent.com/15988772/91278696-2ace9800-e74a-11ea-8bcc-17be6f63e693.png" width="256" title="ADS3 Sinogram"></td>
+    <td style="text-align:center"><img src="https://user-images.githubusercontent.com/15988772/91278705-2d30f200-e74a-11ea-9563-bad5bb6e2e48.png" width="256" title="ADS3 Tomogram" ></td>
   </tr>
 </table>
 
@@ -115,7 +115,7 @@ Download [Fiji](https://fiji.sc) open source, lightweight, standalone scientific
     <th>ADS4 Tomogram (2048x2048)</th>
   </tr>
   <tr valign="top">
-    <td style="text-align:center"><img src="https://user-images.githubusercontent.com/15988772/91256820-ee8d3e80-e72d-11ea-9732-64888f021d3e.png" width="256" title="ADS4 Sinogram"></td>
-    <td style="text-align:center"><img src="https://user-images.githubusercontent.com/15988772/91256824-f2b95c00-e72d-11ea-9b78-79dc46feacdb.png" width="256" title="ADS4 Tomogram" ></td>
+    <td style="text-align:center"><img src="https://user-images.githubusercontent.com/15988772/91278713-2efab580-e74a-11ea-8b6d-e4265b96c8ab.png" width="256" title="ADS4 Sinogram"></td>
+    <td style="text-align:center"><img src="https://user-images.githubusercontent.com/15988772/91278912-7123f700-e74a-11ea-8908-dbcfbb2e4dd7.png" width="256" title="ADS4 Tomogram" ></td>
   </tr>
 </table>
