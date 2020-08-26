@@ -7,17 +7,17 @@ OPTFLAGS = -O3 -xhost
 LD_FLAGS = -qopenmp
 
 TARGETS = memxct
-OBJECTS = main.o vars.h raytrace.o kernels.o
+OBJECTS = src/main.o src/raytrace.o src/kernels.o
 
 # ----- Make Rules -----
 
 all:	$(TARGETS)
 
-%.o: %.cpp
+%.o: %.cpp vars.h
 	${CXX} ${CXXFLAGS} ${OPTFLAGS} $^ -c -o $@
 
 memxct: $(OBJECTS)
 	$(CXX) -o $@ $(OBJECTS) $(LD_FLAGS)
 
 clean:
-	rm -f $(TARGETS) *.o *.o.* *.txt *.bin core
+	rm -f $(TARGETS) src/*.o src/*.o.* *.txt *.bin core

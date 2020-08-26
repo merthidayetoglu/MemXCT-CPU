@@ -6,18 +6,18 @@ OPTFLAGS = -O3 -xmic-avx512 -qopt-prefetch=0 -qopt-report=5 -qopt-report-file=$@
 
 LD_FLAGS = -qopenmp
 
-TARGETS = ptycho
-OBJECTS = main.o vars.h raytrace.o kernels.o
+TARGETS = memxct
+OBJECTS = src/main.o src/raytrace.o src/kernels.o
 
 # ----- Make Rules -----
 
 all:	$(TARGETS)
 
-%.o: %.cpp
+%.o: %.cpp vars.h
 	${CXX} ${CXXFLAGS} ${OPTFLAGS} $^ -c -o $@
 
-ptycho: $(OBJECTS)
+memxct: $(OBJECTS)
 	$(CXX) -o $@ $(OBJECTS) $(LD_FLAGS)
 
 clean:
-	rm -f $(TARGETS) *.o *.o.* *.txt *.bin core
+	rm -f $(TARGETS) src/*.o src/*.o.* *.txt *.bin core
