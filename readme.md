@@ -22,7 +22,7 @@ We provide the challenge datasets over Box. Dimensions (Theta x Rho) and corresp
 * ADS1 (360x256): 512 MB
 * ADS2 (750x512): 3.6 GB
 * ADS3 (1500x1024): 28 GB
-* ADS3 (2400x2048): 180 GB
+* ADS4 (2400x2048): 180 GB
 
 **Challenge Datasets:**
 TBA
