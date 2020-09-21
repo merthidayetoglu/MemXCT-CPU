@@ -59,11 +59,11 @@ export NUMITER= Number of Iterations (should be 24)
 export SPATSIZE= Spatial Tile Size (tuning parameter)
 export SPECSIZE= Spectral Tile Size (tuning parameter)
 #BLOCK SIZE
-export PROJBLOCK= Projection Block Size (tuning parameter)
-export BACKBLOCK= Backprojection Block Size (tuning parameter)
+export PROJBLOCK= Projection Partition Block Size (tuning parameter)
+export BACKBLOCK= Backprojection Partition Block Size (tuning parameter)
 #BUFFER SIZE
-export PROJBUFF= Projection Buffer Size (tuning parameter)
-export BACKBUFF= Backprojection Buffer Size (tuning parameter)
+export PROJBUFF= Projection Buffer Size in KB (tuning parameter)
+export BACKBUFF= Backprojection Buffer Size in KB (tuning parameter)
 #I/O FILES
 export THEFILE= input theta file path
 export SINFILE= input sinogram file path
