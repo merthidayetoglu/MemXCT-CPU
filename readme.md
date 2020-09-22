@@ -50,24 +50,24 @@ Edit input parameters and run the application using run script. Update one of th
 
 ```bash
 #DOMAIN INFORMATION
-export NUMTHE= Number of Rotations (according to the input dataset)
-export NUMRHO= Number of Channels (according to the input dataset)
-export PIXSIZE= Pixel Size (should be 1)
+export NUMTHE= #Number of Rotations (according to the input dataset)
+export NUMRHO= #Number of Channels (according to the input dataset)
+export PIXSIZE= #Pixel Size (should be 1)
 #SOLVER DATA
-export NUMITER= Number of Iterations (should be 24)
+export NUMITER= #Number of Iterations (should be 24)
 #TILE SIZE (MUST BE POWER OF TWO)
-export SPATSIZE= Spatial Tile Size (tuning parameter)
-export SPECSIZE= Spectral Tile Size (tuning parameter)
+export SPATSIZE= #Spatial Tile Size (tuning parameter)
+export SPECSIZE= #Spectral Tile Size (tuning parameter)
 #BLOCK SIZE
-export PROJBLOCK= Projection Partition Block Size (tuning parameter)
-export BACKBLOCK= Backprojection Partition Block Size (tuning parameter)
+export PROJBLOCK= #Projection Partition Block Size (tuning parameter)
+export BACKBLOCK= #Backprojection Partition Block Size (tuning parameter)
 #BUFFER SIZE
-export PROJBUFF= Projection Buffer Size in KB (tuning parameter)
-export BACKBUFF= Backprojection Buffer Size in KB (tuning parameter)
+export PROJBUFF= #Projection Buffer Size in KB (tuning parameter)
+export BACKBUFF= #Backprojection Buffer Size in KB (tuning parameter)
 #I/O FILES
-export THEFILE= input theta file path
-export SINFILE= input sinogram file path
-export OUTFILE= output image file path
+export THEFILE= #input theta file path
+export SINFILE= #input sinogram file path
+export OUTFILE= #output image file path
 
 #RUN COMMAND COMES HERE
 ```
