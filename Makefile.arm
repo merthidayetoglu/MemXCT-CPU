@@ -1,5 +1,7 @@
 # ----- Make Macros -----
 
+# Works only for Amazon gravitron machine. Requires modification for other platforms.
+
 CXX = mpicxx
 CXXFLAGS = -std=c++11 -fopenmp -I/opt/amazon/openmpi/include/  
 OPTFLAGS = -O3 -qopt-prefetch=0 -qopt-report=5 -qopt-report-file=$@.optrpt
