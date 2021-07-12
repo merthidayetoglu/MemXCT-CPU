@@ -2,7 +2,7 @@
 
 CXX = mpicxx
 CXXFLAGS = -std=c++11 -fopenmp -I/opt/amazon/openmpi/include/  
-OPTFLAGS = -O3 -xmic-avx512 -qopt-prefetch=0 -qopt-report=5 -qopt-report-file=$@.optrpt
+OPTFLAGS = -O3 -qopt-prefetch=0 -qopt-report=5 -qopt-report-file=$@.optrpt
 
 LD_FLAGS = -fopenmp 
 
