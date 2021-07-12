@@ -42,8 +42,10 @@ wget https://uofi.box.com/shared/static/icxtknbrndv8i2d83mc87ppjxepty8jz -O ADS3
 wget https://uofi.box.com/shared/static/tbjk9dksog7qqick66nbcnq4ngais1yd -O ADS4_theta.bin
 wget https://uofi.box.com/shared/static/ki7smuurh34cleayvwfxhjfn9mgsnega -O ADS4_sinogram.bin
 ```
-
-
+## Compile
+```
+make -f Makefile.<arch/machine>
+```
 ## Run 
 
 Edit input parameters and run the application using run script. Update one of the run scripts for your system.
