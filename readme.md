@@ -25,7 +25,10 @@ We provide the challenge datasets over Box. Dimensions (Theta x Rho) and corresp
 * ADS4 (2400x2048): 180 GB
 
 **Challenge Datasets:**
-TBA
+
+* CDS1 (750x512): 3.6 GB
+* CDS2 (375x1024): 7.0 GB
+* CDS2 (1501x2048): 112 GB
 
 Each dataset requires a theta file and a sinogram file. Use the code below to directly download datasets to your cluster.
 
@@ -41,6 +44,15 @@ wget https://uofi.box.com/shared/static/icxtknbrndv8i2d83mc87ppjxepty8jz -O ADS3
 
 wget https://uofi.box.com/shared/static/tbjk9dksog7qqick66nbcnq4ngais1yd -O ADS4_theta.bin
 wget https://uofi.box.com/shared/static/ki7smuurh34cleayvwfxhjfn9mgsnega -O ADS4_sinogram.bin
+
+wget https://uofi.box.com/shared/static/a09sxg1zmsboeybgpyn8dltt9lhufrdw -O CDS1_theta.bin
+wget https://uofi.box.com/shared/static/uozr0yjsigb5vsvhx7rxk1zlgquvx7jr -O CDS1_sinogram.bin
+
+wget https://uofi.box.com/shared/static/ssn58r8esn3sycyhvi0pp5h548r8dlqk -O CDS2_theta.bin
+wget https://uofi.box.com/shared/static/z62gyxknj8drmb11ei10gk1anw4u7c7p -O CDS2_sinogram.bin
+
+wget https://uofi.box.com/shared/static/wmlwosi2dbvqf4jua5xzmq9sy3yhomyy -O CDS3_theta.bin
+wget https://uofi.box.com/shared/static/1gedpig7mu3scns8qjf9fmqgkp0tqxzf -O CDS3_sinogram.bin
 ```
 ## Compile
 ```
